@@ -1,0 +1,4 @@
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

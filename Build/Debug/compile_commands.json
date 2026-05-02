@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang++.exe --target=x86_64-w64-windows-gnu -IC:/Main/Coding/Axiom/Plugins/Ruler/Include -isystem C:/Users/alway/.axiom/Packages/Level/include/Level -g -std=c++17 -nostdinc++ -fno-exceptions -fno-rtti -fno-unwind-tables -fno-asynchronous-unwind-tables -fvisibility=hidden -Wall -Wextra -Wpedantic -Wshadow -Wcast-align -Wunused -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -O0 -g3 -fno-inline -o CMakeFiles\\Example.dir\\Example\\Example.cpp.obj -c C:\\Main\\Coding\\Axiom\\Plugins\\Ruler\\Example\\Example.cpp",
+  "file": "C:/Main/Coding/Axiom/Plugins/Ruler/Example/Example.cpp",
+  "output": "C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/Example.dir/Example/Example.cpp.obj"
+}
+]

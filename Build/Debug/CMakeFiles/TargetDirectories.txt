@@ -1,0 +1,8 @@
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/Ruler.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/Example.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/edit_cache.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/rebuild_cache.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/list_install_components.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/install.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/install/local.dir
+C:/Main/Coding/Axiom/Plugins/Ruler/Build/Debug/CMakeFiles/install/strip.dir
