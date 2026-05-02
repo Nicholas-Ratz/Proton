@@ -1,0 +1,6 @@
+Build/
+.cache/
+Docs/
+Deprecated/
+compile_commands.json
+*.env
