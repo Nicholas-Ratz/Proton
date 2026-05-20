@@ -44,8 +44,8 @@ AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: true
 AllowShortNamespacesOnASingleLine: true
 AlwaysBreakBeforeMultilineStrings: true
-BinPackArguments: false
-BinPackParameters: OnePerLine
+BinPackArguments: true
+BinPackParameters: true
 BitFieldColonSpacing: After
 BraceWrapping:
   AfterCaseLabel: false
@@ -89,7 +89,7 @@ IncludeCategories:
     Priority: 2
   - Regex: '^<[A-Za-z0-9]+\.h>$'
     Priority: 1
-  - Regex: '^<[A-Za-z0-9]+/[A-Za-z0-9]+\.h>$'
+  - Regex: '^<[A-Za-z0-9]+/[.]+\.h>$'
     Priority: 3
 IndentAccessModifiers: false
 IndentCaseBlocks: false
@@ -101,9 +101,9 @@ IndentWrappedFunctionNames: true
 InsertBraces: false
 InsertNewlineAtEOF: true
 IntegerLiteralSeparator:
-  Binary: 4
-  Decimal: 3
-  Hex: 2
+  Binary: -1
+  Decimal: -1
+  Hex: -1
 MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
 PackConstructorInitializers: CurrentLine

@@ -1,18 +1,35 @@
-# Generated from CLion Inspection settings
 ---
 Checks: >
   -*,
   bugprone-*,
   -bugprone-easily-swappable-parameters,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  modernize-*,
+  -modernize-avoid-c-arrays,
+  -modernize-concat-nested-namespaces,
+  -modernize-deprecated-headers,
+  -modernize-return-braced-init-list,
+  -modernize-use-auto,
+  -modernize-use-bool-literals,
+  -modernize-use-trailing-return-type,
   performance-*,
   -performance-no-int-to-ptr,
   readability-identifier-naming,
 
 CheckOptions:
-  - { key: readability-identifier-naming.ClassCase,               value: CamelCase }
-  - { key: readability-identifier-naming.FunctionCase,            value: camelBack }
-  - { key: readability-identifier-naming.VariableCase,            value: lower_case }
-  - { key: readability-identifier-naming.ConstexprVariableCase,   value: UPPER_CASE }
-  - { key: readability-identifier-naming.MemberCase,              value: camelBack }
-  - { key: readability-identifier-naming.NamespaceCase,           value: CamelCase }
+  - { key: readability-identifier-naming.ClassCase,              value: CamelCase }
+  - { key: readability-identifier-naming.StructCase,             value: CamelCase }
+  - { key: readability-identifier-naming.EnumCase,               value: CamelCase }
+  - { key: readability-identifier-naming.FunctionCase,           value: camelBack }
+  - { key: readability-identifier-naming.MethodCase,             value: camelBack }
+  - { key: readability-identifier-naming.VariableCase,           value: lower_case }
+  - { key: readability-identifier-naming.ParameterCase,          value: lower_case }
+  - { key: readability-identifier-naming.ConstexprVariableCase,  value: UPPER_CASE }
+  - { key: readability-identifier-naming.GlobalConstantCase,     value: UPPER_CASE }
+  - { key: readability-identifier-naming.EnumConstantCase,       value: UPPER_CASE }
+  - { key: readability-identifier-naming.MemberCase,             value: camelBack }
+  - { key: readability-identifier-naming.PrivateMemberCase,      value: camelBack }
+  - { key: readability-identifier-naming.PrivateMemberPrefix,    value: _ }
+  - { key: readability-identifier-naming.NamespaceCase,          value: CamelCase }
 

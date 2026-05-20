@@ -1,32 +1,32 @@
 cmake_minimum_required(VERSION 3.21)
-set(CMAKE_CXX_STANDARD          17)
+set(CMAKE_CXX_STANDARD          98)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 file(TO_CMAKE_PATH "$ENV{HOME}" _HOME_PATH)
 file(TO_CMAKE_PATH "$ENV{USERPROFILE}" _USERPROFILE_PATH)
 list(APPEND CMAKE_MODULE_PATH
-    "${_HOME_PATH}/.axiom/CMake"
-    "${_USERPROFILE_PATH}/.axiom/CMake"
+    "${_HOME_PATH}/.atom/CMake"
+    "${_USERPROFILE_PATH}/.atom/CMake"
 )
-include(AxiomFunctions REQUIRED)
-Axiom_UseToolchain("${CMAKE_SOURCE_DIR}/clang-gnu_Toolchain.cmake")
-Axiom_RegisterNativeBuildType()
+include(AtomFunctions REQUIRED)
+Atom_RegisterNativeBuildType()
 
-find_package(Level REQUIRED)
+find_package(Quark REQUIRED)
 
-project(Ruler LANGUAGES CXX VERSION 1.0.0)
-add_library(Ruler STATIC
-    Source/Ruler.cpp
+project(Proton LANGUAGES CXX VERSION 1.0.0)
+add_library(Proton STATIC
+    PRIVATE
+    Source/test.cpp
 )
-target_link_libraries(Ruler Level::Level)
-Axiom_DetectCompiler()
-Axiom_SetupProject(Ruler TYPE PLUGIN LIBRARY_TYPE STATIC)
-Axiom_SetupWarnings(Ruler)
-Axiom_SetupOptimization(Ruler LTO)
-Axiom_SetupCompileCommands(SYMLINK)
-Axiom_SetupInstall(Ruler TYPE PLUGIN)
+target_link_libraries(Proton PUBLIC Quark::Quark)
+Atom_DetectCompiler()
+Atom_SetupProject(Proton TYPE PLUGIN LIBRARY_TYPE STATIC)
+Atom_SetupWarnings(Proton)
+Atom_SetupOptimization(Proton LTO)
+Atom_SetupInstall(Proton TYPE PLUGIN)
+Atom_SetupCompileCommands(SYMLINK)
 
-Axiom_SetupExampleProject(Ruler)
-Axiom_SetupProject(Example TYPE PROJECT)
-Axiom_SetupWarnings(Example)
-Axiom_SetupOptimization(Example)
+Atom_SetupExampleProject(Proton)
+Atom_SetupProject(Example TYPE PROJECT)
+Atom_SetupWarnings(Example)
+Atom_SetupOptimization(Example)
